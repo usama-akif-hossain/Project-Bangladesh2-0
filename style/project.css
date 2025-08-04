@@ -90,7 +90,8 @@ nav button{
     border-radius: 10px;
     font-weight: 400;
     font-size: 18px;
-    margin-top: 10px;  
+    margin-top: 10px;
+      
 
 }
 
@@ -103,6 +104,7 @@ nav button{
 /* main style */
 .main-container{
     max-width: 1280px;
+
     height: 244px;
     margin: 0px auto;
     font-size: 20px;
@@ -115,23 +117,23 @@ nav button{
 
 .child{
    background-color: #FFFFFF;
-   border: 1px solid gray;
+   border: 2px solid gray;
    border-radius: 16px;
    padding: 20px;
    width: 302px;
-   /* height: 245px; */
+   height: 180px;
    text-align: left;
 
    
 }
 .child img{
-    width: 62px;
-    height: 62px;
+    width: 40px;
+    height: 40px;
     margin: 10px 0px;
     
 }
 .child h2{
-    margin: 10px 0px;
+    margin-bottom: 10px ;
     font-size: 20px;
     font-weight: bold;
     width: 254px;
@@ -142,5 +144,140 @@ nav button{
     width: 254px;
     height: 72px;
     font-size: 16px;
-    color:#0E0E0E ;
+    color:#0e0e0e82 ;
+    margin-top: 5px;
+}
+
+
+/* vision */
+.vision{
+    max-width: 1280px;
+    height: 120px;
+    margin: 0px auto;
+    
+}
+.vision h1{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:80px ;
+    margin-bottom: 10px;
+    height: 48px;
+}
+
+.vision p{
+    color: #0e0e0ea8 ;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+    max-width: 1280px;
+    margin-top: 30px;
+  
+
+}
+
+.vision-dt{
+    border: 2px solid skyblue;
+    border-radius: 16px;
+    padding: 32px;
+    background-color: #548ff545;
+    width: 350px;
+    height: 220px;
+ 
+
+}
+
+.vision-dt h2{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: bold;
+    height: 28px;
+    margin-bottom: 10px;
+}
+.vision-dt button{
+    background-color: #548ff5da;
+    color: #FFFFFF;
+    width: 122px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+.vision-dt img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.vision-ge{
+    border: 2px solid rgba(0, 128, 0, 0.679);
+    border-radius: 16px;
+    padding: 32px;
+    background-color: #09a15d55;
+   width: 350px;
+   height: 220px;
+
+}
+
+.vision-ge h2{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: bold;
+    height: 28px;
+    margin-bottom: 10px;
+}
+.vision-ge button{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    width: 122px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+.vision-ge img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.vision-mi{
+    border: 2px solid rgba(255, 255, 0, 0.305);
+    border-radius: 16px;
+    padding: 32px;
+    background-color: #F7EBCF;
+    width: 350px;
+    height: 220px;
+
+}
+
+.vision-mi h2{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: bold;
+    height: 28px;
+    margin-bottom: 10px;
+}
+.vision-mi button{
+    background-color: #FFC239;
+    color: #FFFFFF;
+    width: 122px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+.vision-mi img{
+    width: 40px;
+    height: 40px;
 }
