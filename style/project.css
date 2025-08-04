@@ -26,8 +26,8 @@ nav button{
     height: 50px;
     border-radius: 8px;
     color: #006A50;
-    background-color: ;
-   margin: 25px 40px;
+    background-color: white;
+    margin:0 auto;
     font-size: 18px;
     font-weight: 600;
 }
@@ -38,5 +38,8 @@ nav button{
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E;
-    margin: 25px 40px;
+    margin: 0 auto;
 }
+
+/* 1st banner */
+
